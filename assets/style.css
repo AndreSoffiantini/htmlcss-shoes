@@ -27,15 +27,22 @@ Site-main
 
 .buttons {
     position: fixed;
-    right: 0;
-    top: 0;
-    height: 50px;
-    width: 50px;
-    background-color: blue;
+    right: 20px;
+    top: 40px;
 }
 
 .buttons>a {
-    color: white;
+    display: inline-block;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    padding: 16px;
+    margin-left: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    font-size: 16.5px;
+    text-decoration: none;
 }
 
 #red-page {
