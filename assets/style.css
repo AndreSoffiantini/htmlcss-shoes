@@ -14,10 +14,12 @@
 
 .page {
     height: 100vh;
+    position: relative;
 }
 
 .slogan {
     font-size: 44.5px;
+    position: absolute;
 }
 
 
@@ -29,6 +31,7 @@ Site-main
     position: fixed;
     right: 20px;
     top: 40px;
+    z-index: 10;
 }
 
 .buttons>a {
@@ -55,4 +58,12 @@ Site-main
 
 #yellow-page {
     background-color: yellow;
+}
+
+.page>img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 45vw;
 }
