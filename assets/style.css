@@ -1,3 +1,5 @@
+/* Common */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +9,33 @@
     font-weight: normal;
 }
 
+
+/* Utility */
+
 .page {
     height: 100vh;
+}
+
+.slogan {
+    font-size: 44.5px;
+}
+
+
+/******
+Site-main
+*******/
+
+.buttons {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+.buttons>a {
+    color: white;
 }
 
 #red-page {
@@ -21,8 +48,4 @@
 
 #yellow-page {
     background-color: yellow;
-}
-
-.slogan {
-    font-size: 44.5px;
 }
