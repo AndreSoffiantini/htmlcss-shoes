@@ -4,7 +4,18 @@
     box-sizing: border-box;
 }
 
-#site_main {
+.page {
     height: 100vh;
+}
+
+#red-page {
     background-color: red;
+}
+
+#green-page {
+    background-color: green;
+}
+
+#yellow-page {
+    background-color: yellow;
 }
