@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
 }
 
 .page {
@@ -18,4 +21,8 @@
 
 #yellow-page {
     background-color: yellow;
+}
+
+.slogan {
+    font-size: 44.5px;
 }
