@@ -20,6 +20,12 @@
 .slogan {
     font-size: 44.5px;
     position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    width: 50vw;
+    text-align: center;
 }
 
 
@@ -66,4 +72,8 @@ Site-main
     top: 50%;
     transform: translate(-50%, -50%);
     width: 45vw;
+}
+
+#yellow-page .slogan {
+    color: green;
 }
